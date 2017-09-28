@@ -50,6 +50,8 @@ namespace H2myqueue
 		}
 		public void print()
 		{
+			if (isEmpty ())
+				return;
 			for (int i = front; i <= rear; i++) {
 				Console.WriteLine (dizi[i]);
 			}
